@@ -3,12 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package unoquattro;
-
-/**
- *
- * @author MWright
- */
+package uno;
 
 //type of Card that inherits from ColourCard
 public class StandardColourCard extends ColourCard{

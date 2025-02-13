@@ -1,10 +1,10 @@
-package unoquattro;
+package uno;
 
-public class QuattroGameTester {
+public class UniGameTester {
 
         public static void main(String[] args) 
         {
-            QuattroGame game = new QuattroGame();
+            UniGame game = new UniGame();
             game.playGame();
 
         }

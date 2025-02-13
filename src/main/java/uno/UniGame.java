@@ -1,18 +1,13 @@
-package unoquattro;
+package uno;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
 //import java.util.Collections;
-/**
- * @author MWright
- * Update by Bao HO
- * 19/10/2022
- */
 
 //main entry class for the program
-public class QuattroGame{
+public class UniGame{
 
     private ArrayList<Card> cardListStack = new ArrayList<>(); //list of cards in draw pile
     private ArrayList<Card> cardListDiscard = new ArrayList<>(); //list of cards in discard pile
