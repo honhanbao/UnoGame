@@ -1,10 +1,10 @@
 package uno;
 
-public class UniGameTester {
+public class UnoGameTester {
 
         public static void main(String[] args) 
         {
-            UniGame game = new UniGame();
+            UnoGame game = new UnoGame();
             game.playGame();
 
         }

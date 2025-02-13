@@ -7,7 +7,7 @@ import java.util.Scanner;
 //import java.util.Collections;
 
 //main entry class for the program
-public class UniGame{
+public class UnoGame{
 
     private ArrayList<Card> cardListStack = new ArrayList<>(); //list of cards in draw pile
     private ArrayList<Card> cardListDiscard = new ArrayList<>(); //list of cards in discard pile
@@ -16,39 +16,6 @@ public class UniGame{
     private final int startingCardNumber = 3;   //default number of cards (no current functionality to update in game)
     private int cardCodeNumber = 0;             //code number to identify which card to play
 
-
-
-    // Task 0: outline of sequence:
-        // 1. createCards()
-            // CreateColourCards(colour)
-        // 2. createPlayers()
-        // 3. dealCards()
-        // 4. PrintPlayerCards(player)
-            // printCards(ArrayList<Card>)
-        // 5. playFirstCard()
-            // ShowTopCard()
-        // 6. PlayByTurns()
-            // CheckIfCardValid(card)
-            // AddCardToPlayerHand(player)
-            // RefreshStack()
-            // humanPlayCard()
-            // boltPlayCard()
-    // Console:
-        // The console asks to enter human player name as a String.
-        // The console print "Human player's name is: name"
-        // The program first create 40 cards: each card has colour, number, and card code and store them in cardListStack. 
-            //The cards should be shuffled
-        // The program create 4 players and store in playerList. A player is an object of Player class.
-            // The first player is human.
-        // The program deals cards to players. Each players is dealed with startingCardNumber cards.
-        // The console print cards that human player has
-        // The program play first card by calling playFirstCard(). The console print this card info so that human player can know what to start.
-        // The console asks the human player to play a card by enter cardCode he/she wants to play. 
-            // If the human player does not have matching card, the player enter 0 and the program deal a card from 
-            // cardListStack to his/her hand card list cardListPlayer
-        // The console display human's hand
-        // The console display bolts' hands after each playing
-        // The console displays tyhe winner
 
 
     // Task 0: 
